@@ -1,20 +1,21 @@
 📊 Dashboard de Salários na Área de Dados
 
-Este repositório contém o dashboard interativo desenvolvido durante a Imersão de Dados da Alura, onde aprendi a manipular dados e criar visualizações interativas do zero.
+Este projeto foi desenvolvido durante a Imersão de Dados da Alura, com o objetivo de explorar e analisar salários na área de dados de forma interativa.
 
-🚀 Sobre o projeto
+🔎 Sobre o Projeto
 
-Durante a imersão, exploramos:
+O dashboard permite:
+- Explorar salários por ano, senioridade, tipo de contrato e tamanho da empresa
+- Visualizar Top 10 cargos por salário médio
+- Analisar a distribuição de salários
+- Comparar proporção de trabalho remoto x presencial
+- Observar salário médio por país para Cientistas de Dados
+- Consultar os dados detalhados em tabela interativa
 
-Manipulação e limpeza de dados com Pandas
+A ideia é permitir análises rápidas e interativas sem precisar baixar ou manipular os dados manualmente.
 
-Visualizações com Seaborn, Matplotlib e Plotly
 
-Construção de dashboards interativos usando Streamlit
-
-O objetivo deste dashboard é permitir a exploração dos salários na área de dados, filtrando por ano, senioridade, tipo de contrato e tamanho da empresa.
-
-⚙️ Como executar localmente
+⚙️ Como Executar Localmente
 
 Clone o repositório:
 
@@ -22,7 +23,7 @@ git clone https://github.com/seu-usuario/imersao_dados_alura.git
 cd imersao_dados_alura
 
 
-Crie um ambiente virtual (opcional):
+Crie e ative um ambiente virtual (opcional):
 
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
@@ -36,22 +37,4 @@ pip install -r requirements.txt
 
 Execute o dashboard:
 
-streamlit run app.py
-
-📚 Tecnologias utilizadas
-
-Python
-
-Pandas
-
-Seaborn
-
-Matplotlib
-
-Plotly
-
-Streamlit
-
-👤 Autor
-
-Desenvolvido por Danilo Lucas durante a Imersão de Dados - Alura.
+streamlit run aplicativo.py
