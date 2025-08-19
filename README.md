@@ -38,3 +38,18 @@ pip install -r requirements.txt
 Execute o dashboard:
 
 streamlit run aplicativo.py
+
+
+🛠 Tecnologias Utilizadas
+
+Python – Linguagem principal
+Pandas – Manipulação e limpeza de dados
+Plotly – Visualizações interativas
+Streamlit – Dashboard web
+
+
+👤 Autor
+
+Danilo Lucas – Estudante de Análise e Desenvolvimento de Sistemas.
+Participante da Imersão de Dados - Alura
+
