@@ -2,54 +2,71 @@
 
 Este projeto foi desenvolvido durante a Imersão de Dados da Alura, com o objetivo de explorar e analisar salários na área de dados de forma interativa.
 
-🔎 Sobre o Projeto
+🔗 Acesse o dashboard online:
+https://imersaodadosalura-q89hynvh8mhdub9dt8egdg.streamlit.app/
 
-O dashboard permite:
-- Explorar salários por ano, senioridade, tipo de contrato e tamanho da empresa
-- Visualizar Top 10 cargos por salário médio
-- Analisar a distribuição de salários
-- Comparar proporção de trabalho remoto x presencial
-- Observar salário médio por país para Cientistas de Dados
-- Consultar os dados detalhados em tabela interativa
+🔎 Sobre o Projeto
+O dashboard permite que você:
+
+- Explore salários por ano, senioridade, tipo de contrato e tamanho da empresa
+- Visualize o Top 10 cargos por salário médio
+- Analise a distribuição de salários
+- Compare a proporção de trabalho remoto x presencial
+- Observe o salário médio por país para Cientistas de Dados
+- Consulte os dados detalhados em uma tabela interativa
 
 A ideia é permitir análises rápidas e interativas sem precisar baixar ou manipular os dados manualmente.
 
-
 ⚙️ Como Executar Localmente
+1️⃣ Abrir o terminal
 
-Clone o repositório:
+Use Git Bash ou PowerShell no Windows.
 
-git clone https://github.com/seu-usuario/imersao_dados_alura.git
+2️⃣ Clonar o repositório
+git clone https://github.com/DaniloLucaxs/imersao_dados_alura.git
 cd imersao_dados_alura
 
 
-Crie e ative um ambiente virtual (opcional):
+Isso vai criar a pasta imersao_dados_alura e entrar nela.
 
-python -m venv venv
-source venv/bin/activate   # Linux/Mac
-venv\Scripts\activate      # Windows
+3️⃣ Criar e ativar o ambiente virtual
 
+Git Bash:
 
-Instale as dependências:
-
-pip install -r requirements.txt
+python -m venv .venv
+source .venv/Scripts/activate
 
 
-Execute o dashboard:
+PowerShell:
 
-streamlit run aplicativo.py
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
 
+
+Se funcionar, você verá (.venv) no começo da linha do terminal.
+
+4️⃣ Instalar dependências
+
+Como o arquivo requirements.txt não existe, rode:
+
+pip install streamlit pandas plotly
+
+5️⃣ Executar o dashboard
+python -m streamlit run aplicativo.py
+
+
+O navegador abrirá automaticamente em http://localhost:8501
+.
+Se não abrir, copie o link que aparece no terminal e cole no navegador.
 
 🛠 Tecnologias Utilizadas
 
-Python – Linguagem principal
-Pandas – Manipulação e limpeza de dados
-Plotly – Visualizações interativas
-Streamlit – Dashboard web
-
+- Python – Linguagem principal
+- Pandas – Manipulação e limpeza de dados
+- Plotly – Visualizações interativas
+- Streamlit – Dashboard web
 
 👤 Autor
 
-Danilo Lucas – Estudante de Análise e Desenvolvimento de Sistemas.
+Danilo Lucas – Estudante de Análise e Desenvolvimento de Sistemas
 Participante da Imersão de Dados - Alura
-
